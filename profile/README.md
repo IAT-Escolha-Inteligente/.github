@@ -1,4 +1,7 @@
 
+> [!NOTE]
+> **Aviso**: Este projeto está sendo desenvolvido inteiramente em português, incluindo código e documentação.
+
 # GIT Guideline
 
 Padronizar o Git gira em torno de duas coisas principais:
