@@ -31,15 +31,15 @@ Mescle e Exclua: Após a aprovação (e idealmente, após a passagem de testes a
 
 Para manter a organização, os nomes das branches devem ser padronizados. Uma prática comum é usar prefixos:
 
-Funcionalidade nova: <dev>/feature/<nome-da-funcionalidade> (ex: rafael/feature/login-com-google)
+Funcionalidade nova: ```<dev>/feature/<nome-da-funcionalidade>``` (ex: ```rafael/feature/login-com-google```)
 
-Correção de bug: <dev>/fix/<nome-da-correcao> (ex: rafael/fix/calculo-imposto-incorreto)
+Correção de bug: ```<dev>/fix/<nome-da-correcao>``` (ex: ```rafael/fix/calculo-imposto-incorreto```)
 
-Melhoria/Refatoração: <dev>/refactor/<o-que-foi-refatorado> (ex: rafael/refactor/otimizar-consulta-sql)
+Melhoria/Refatoração: ```<dev>/refactor/<o-que-foi-refatorado>``` (ex: ```rafael/refactor/otimizar-consulta-sql```)
 
-Documentação: <dev>/docs/<documentacao-adicionada> (ex: rafael/docs/atualizar-readme-api)
+Documentação: ```<dev>/docs/<documentacao-adicionada>``` (ex: ```rafael/docs/atualizar-readme-api```)
 
-Tarefas (ex: CI/CD): <dev>/chore/<nome-da-tarefa> (ex: rafael/chore/configurar-github-actions)
+Tarefas (ex: CI/CD): ```<dev>/chore/<nome-da-tarefa>``` (ex: ```rafael/chore/configurar-github-actions```)
 
 Por quê? Fica óbvio para todos o que está acontecendo em cada branch apenas lendo o nome.
 
@@ -185,4 +185,5 @@ Para garantir que todos sigam as regras:
 3. **Commitlint**: Uma ferramenta que pode ser adicionada ao seu projeto para verificar se as mensagens de commit seguem o padrão Conventional Commits.
 
 Começar com os passos 1, 2 e 3 já colocará sua equipe em um nível muito mais profissional e organizado.
+
 
